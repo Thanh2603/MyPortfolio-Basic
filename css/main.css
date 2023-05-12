@@ -453,8 +453,8 @@ header {
 .works__img--single:nth-child(3) {
   margin-top: -5em;
 }
-.works__ex {
-}
+/* .works__ex {
+} */
 .works__ex--single {
   margin-top: 10px;
 }
