@@ -13,30 +13,59 @@
     />
     <!-- Main Css -->
     <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/grid.css" />
     <style></style>
     <title>Nguyễn Nhật Thanh - Portfolio</title>
   </head>
   <body>
+    <!-- Circle -->
+    <div class="circle-parents">
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+    </div>
+    <!-- Overlay -->
+    <section id="overlay"></section>
     <!-- Header -->
     <header>
       <div class="container">
         <nav class="navbar">
-          <!-- Logo -->
-          <div class="navbar__logo">
-            <img src="./img/logo.svg" alt="logo" />
+          <!-- Portfolio Description -->
+          <div class="navbar__des">
+            <p>My Portfolio</p>
           </div>
           <!-- Links -->
           <ul class="navbar__links">
             <li class="navbar__link">
-              <a href="#">Work</a>
+              <a href="#works">Work</a>
             </li>
             <li class="navbar__link">
-              <a href="#">About</a>
+              <a href="#things">About</a>
             </li>
             <li class="navbar__link">
-              <a href="#">Resume</a>
+              <a href="#skills"> Skills </a>
             </li>
-            <a href="#"> <button class="navbar__btn">Contact</button></a>
+            <li class="navbar__link">
+              <a href="#works">Resume</a>
+            </li>
+            <a href="#footer"> <button class="navbar__btn">Contact</button></a>
           </ul>
           <!-- Menu buttons -->
           <div class="navbar__icons">
@@ -50,21 +79,248 @@
       <div class="container">
         <!-- img -->
         <div class="banner__img">
-          <img src="/img/banner-img.png" alt="banner img" />
+          <img src="/img/cmsoon.png" alt="banner img" />
         </div>
         <!-- Heading -->
         <div class="banner__heading">
-          <h1>Hello, I'm Thanh Nguyễn</h1>
-          <p>Lorem</p>
-          <a href="#"><button class="banner__btn">View more</button></a>
+          <h1>Hello, I'm Nguyen Nhat Thanh</h1>
+          <p>I'm a Front-End developer</p>
+          <a href="#things"><button class="banner__btn">About Me</button></a>
           <div class="banner__socials">
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100006777150196"
+              target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/nguyen-nhat-thanh-3b2657261/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/Thanh2603" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
           </div>
         </div>
       </div>
     </section>
+    <!-- Things -->
+    <section id="things">
+      <div class="container">
+        <!-- Decoration -->
+        <div class="things__dec">
+          <img src="/img/things-dec-l.png" alt="decoration img" />
+        </div>
+        <div class="things__dec">
+          <img src="/img/things-dec-r.png" alt="decoration img" />
+        </div>
+        <!-- Heading -->
+        <div class="things__about">
+          <h2>About Me</h2>
+        </div>
+        <!-- Item 1 -->
+        <div class="things__item">
+          <!-- Img -->
+          <img src="/img/about-me-1.jpg" alt="me" />
+          <!-- Text -->
+          <div class="things__item--heading">
+            <h3>Get To Know Me!</h3>
+            <p>
+              I am 23 years old and currently living and studying in Ho Chi Minh
+              city. And now I spend most of my time learning and improving my
+              knowledge of HTML CSS and Javascript, ReactJs
+            </p>
+            <p>
+              I enjoy coding and the challenge of learning something new
+              everyday. My goal is to pursue a career in the field of front-end
+              development.
+            </p>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="things__item">
+          <!-- Img -->
+          <img src="/img/about-me-2.jpg" alt="school" />
+          <!-- Text -->
+          <div class="things__item--heading">
+            <h3>Education</h3>
+            <p>2018-2023 Information Technology Engineer - Hutech University</p>
+            <p>Major : Software Technology</p>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="things__item">
+          <!-- Img -->
+          <img src="/img/about-me-3.jpg" alt="" />
+          <!-- Text -->
+          <div class="things__item--heading">
+            <h3>Little Things About Me</h3>
+            <p>
+              In addition to programming, I also love traveling, swimming and
+              listening to music
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills -->
+    <section id="skills">
+      <div class="container">
+        <!-- Heading -->
+        <div class="skill__heading">
+          <h1>Skills</h1>
+        </div>
+        <div class="skill__detail">
+          <div class="skill__single">
+            <i class="fa-brands fa-html5" style="color: #eb701e"></i>
+            <p>HTML5</p>
+          </div>
+          <div class="skill__single">
+            <i class="fa-brands fa-css3-alt" style="color: #2866d2"></i>
+            <p>CSS3</p>
+          </div>
+          <div class="skill__single">
+            <i class="fa-brands fa-square-js" style="color: #eac510"></i>
+            <p>Javascript</p>
+          </div>
+          <div class="skill__single">
+            <i class="fa-brands fa-react" style="color: #2bb0f3"></i>
+            <p>ReactJs</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Works -->
+    <section id="works">
+      <div class="container">
+        <!-- Decoration -->
+        <div class="works__dec">
+          <img src="/img/work-dec.png" alt="" />
+        </div>
+        <div class="works__dec">
+          <img src="/img/work-dec.png" alt="" />
+        </div>
+        <!-- Heading -->
+        <h2>Work Experience</h2>
+        <!-- Img -->
+        <!-- <div class="works__img">
+          <div class="works__img--single">
+            <img src="/img/work-1.png" alt="" />
+          </div>
+          <div class="works__img--single">
+            <img src="/img/work-2.png" alt="" />
+          </div>
+          <div class="works__img--single">
+            <img src="/img/work-3.png" alt="" />
+          </div>
+          <div class="works__img--single">
+            <img src="/img/work-4.png" alt="" />
+          </div>
+        </div> -->
+        <div class="works__ex">
+          <div class="works__ex--single">
+            <h3>WEBSITE: MOBILE SHOP (SCHOOL)</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="works__ex--single">
+            <h3>WEBSITE: HEALTH CARE SYSTEM (SCHOOL)</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+            <p>
+              Source Control :
+              <a href="https://github.com/Thanh2603/MTVCCPT" target="_blank"
+                >Github</a
+              >
+            </p>
+          </div>
+          <div class="works__ex--single">
+            <h3>WEBSITE CMS TICKET (INTERNSHIP - ALTA SOFTWARE)</h3>
+            <ul>
+              <li>ReactJs</li>
+              <li>Redux</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="works__ex--single">
+            <h3>WEBSITE: SHOPEE CLONE</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+            <p>
+              Source Control :
+              <a
+                href="https://github.com/Thanh2603/https---github.com-Thanh2603-Shopee"
+                target="_blank"
+                >Github</a
+              >
+            </p>
+          </div>
+          <div class="works__ex--single">
+            <h3>WEBSITE: MY PORTFOLIO</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Btn -->
+        <div class="works__btn">
+          <a href="#"><button>View work</button></a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container">
+        <!-- Decoration -->
+        <div class="footer__dec">
+          <img src="/img/things-dec-l.png" alt="" />
+        </div>
+
+        <!-- Img -->
+        <div class="footer__img">
+          <img src="/img/contact.png" alt="" />
+        </div>
+        <!-- Heading -->
+        <div class="footer__heading">
+          <h1>Ready to make something amazing</h1>
+          <!-- Contact -->
+          <div class="footer__contact">
+            <a href="tel:0904804756">
+              <i class="fas fa-regular fa-phone"></i>
+              <p class="foooter__info">0904804756</p>
+            </a>
+            <a href="mailto:bestorder2k@gmail.com">
+              <i class="fa-regular fa-envelope"></i>
+              <p class="foooter__info">Mail Here</p>
+            </a>
+          </div>
+          <div class="banner__socials">
+            <a
+              href="https://www.facebook.com/profile.php?id=100006777150196"
+              target="_blank"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/nguyen-nhat-thanh-3b2657261/"
+              target="_blank>"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Thanh2603" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- Fonts Awesome -->
     <script
       src="https://kit.fontawesome.com/a3b58fa4d3.js"
